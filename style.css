@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url("./imgs/photo_2025-06-13\ 11.56.39.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+div a {
+    border: 2px solid #a68261;
+    color: white;
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 20px;
+    border-radius: 10px;
+    transition: all 0.5s ease
+}
+
+div a:hover {
+    border-color: transparent ;
+    background-color: white;
+    color: #a68261;
+    transform: scale(1.1);
+}
